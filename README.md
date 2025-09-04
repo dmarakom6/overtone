@@ -23,7 +23,7 @@ Make sure you have Docker and Docker Compose installed on your system.
 First, clone this repository to your local machine:
 
 ```sh
-git clone [https://github.com/your-username/overtone.git](https://github.com/your-username/overtone.git)
+git clone https://github.com/dmarakom6/overtone.git
 cd overtone
 ```
 
