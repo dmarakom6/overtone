@@ -27,7 +27,7 @@ git clone https://github.com/dmarakom6/overtone.git
 cd overtone
 ```
 
-2. Build and Run the Docker Container
+### 2. Build and Run the Docker Container
 
 The application is set up to run with Docker Compose. The docker-compose.yml file handles building the Node.js application and its dependencies, including FFmpeg.
 
@@ -38,17 +38,17 @@ docker compose up --build
 ```
 This command will:
 
-   1. Build the Docker image based on the Dockerfile.
+   #### 1. Build the Docker image based on the Dockerfile.
 
-   2. Install all Node.js and FFmpeg dependencies.
+   #### 2. Install all Node.js and FFmpeg dependencies.
 
-   3. Start the Node.js server.
+   #### 3. Start the Node.js server.
 
 You should see output similar to this, indicating that the server is running successfully:
 ```
 ✅ Overtone API running at http://localhost:3000
 ```
-3. Test the Application
+### 3. Test the Application
 
 The web interface is available at http://localhost:3000. Open this URL in your web browser.
 
@@ -62,7 +62,7 @@ highpass=f=200, lowpass=f=3000, afftdn=nf=-25, loudnorm=I=-16:TP=-1.5:LRA=11, ac
 ```
 This configuration ensures a clean, loud, and intelligible final product.
 
-Project Structure
+## Project Structure
 
    - `dockerfile`: Defines the build environment for the Node.js application and FFmpeg.
 
