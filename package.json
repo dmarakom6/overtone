@@ -1,0 +1,43 @@
+{
+  "name": "overtone",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "front": "vite",
+    "back": "node server.js",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "lucide-vue-next": "^0.542.0",
+    "multer": "^2.0.2",
+    "reka-ui": "^2.5.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.13",
+    "tw-animate-css": "^1.3.8",
+    "vue": "^3.5.18"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.3.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vue-tsc": "^3.0.5"
+  },
+  "description": "This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
